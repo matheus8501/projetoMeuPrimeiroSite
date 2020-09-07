@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.capa{
+    background-image: url(img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 300px;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    padding: 0 2%;
+    width: auto;
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    border-bottom: solid rgba(255,255,255,0) 1px;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    border-bottom: solid white 2px;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    filter: invert(100%);
+}
+
+#apresentacao{
+    margin: 0;
+    color: black;
+    padding: 250px 25% 0 25%;
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+#frase{
+    text-align: center;
+    font-size: 17px;
+    padding: 0;
+}
+
+#autor{
+    text-align: right;
+    font-size: 17px;
+}
+
+.contentSite1, .contentSite3{
+    padding: 75px 10%;
+    background-color: #0f1a1a;
+    overflow: hidden;
+    color: #DAA520;
+}
+
+.contentSite1 h1, .contentSite2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.containerLeft{
+    text-align: justify;
+    width: 50%;
+    height: auto;
+    float: left;
+    color: #DAA520;
+}
+
+.containerRight{
+    text-align: justify;
+    width: 50%;
+    float: right;
+    margin: 0;
+    padding-left: 15%;
+    font-weight: bold;
+
+    
+}
+
+.containerRight img{
+    width: 350px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    border-radius: 10px;
+}
+
+.contentSite2{
+    padding: 75px 5%;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    overflow: hidden;
+    color: white;
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    display: block;
+}
+
+.boxProblems{
+    float: left;
+    width: 25%;
+    margin: 4%;
+    text-align: center;
+}
+
+.iconProblem{
+    filter: invert(100%);
+}
+
+/* .contentSite2 a{
+    color: #202020;
+    text-decoration-line: none;
+}
+
+.contentSite2 a:hover{
+    color: #404040;
+    text-decoration-line: none;
+} */
